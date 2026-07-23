@@ -67,7 +67,7 @@ For PIE-Bench data preparation, see https://github.com/cure-lab/PnPInversion
 
 export CUDA_VISIBLE_DEVICES=9
 
-conda activate ChordEdit
+conda activate WhereEdit
 
 
 

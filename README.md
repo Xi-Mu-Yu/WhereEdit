@@ -64,20 +64,11 @@ For PIE-Bench data preparation, see https://github.com/cure-lab/PnPInversion
 
 
 
-
+```bash
 export CUDA_VISIBLE_DEVICES=9
-
 conda activate WhereEdit
-
-
-
-
-
 python run_pie_bench.py --model-root ./sd-turbo --pie-root ./sd-turbo/pie_bench --overwrite
-
-
 python eval/evaluate.py
-
-
 python eval/summarize_metrics.py
+```
 
